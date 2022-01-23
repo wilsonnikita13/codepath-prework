@@ -7,14 +7,14 @@ Tip Calculator
 
 Submitted by: **Nikita Wilson**
 
-Time spent: **2 hours** hours spent in total
+Time spent: **2.5 hours** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [x ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [ x] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
 
 The following **optional** features are implemented:
 
@@ -33,6 +33,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/j47pkOxyQb.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+![Going Dutch Demo](http://g.recordit.co/j47pkOxyQb.gif')
 
 
 GIF created with [RecordIT](https://recordit.co).
