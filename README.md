@@ -27,9 +27,10 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
-- [ ] Light Mode & Dark Mode
+- [x] List anything else that you can get done to improve the app functionality!
+- [x] Light Mode & Dark Mode
 - [ ] Split between people - spent 2 hours figuring it out, will need more time.
+- [ ]Twitter Post Functionality 
 
 ## Video Walkthrough
 
