@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		119B5BCA27ACE57A006ACBDF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119B5BC927ACE57A006ACBDF /* SettingsViewController.swift */; };
 		11BB1A51279B5B830023CC8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB1A50279B5B830023CC8E /* AppDelegate.swift */; };
 		11BB1A53279B5B830023CC8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB1A52279B5B830023CC8E /* SceneDelegate.swift */; };
 		11BB1A55279B5B830023CC8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB1A54279B5B830023CC8E /* ViewController.swift */; };
 		11BB1A58279B5B830023CC8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BB1A56279B5B830023CC8E /* Main.storyboard */; };
-		11BB1A5A279B5B830023CC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BB1A59279B5B830023CC8E /* Assets.xcassets */; };
 		11BB1A5D279B5B830023CC8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BB1A5B279B5B830023CC8E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		119B5BC927ACE57A006ACBDF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "Pretest- Tip Calculator/SettingsViewController.swift"; sourceTree = "<group>"; };
 		11BB1A4D279B5B830023CC8E /* Pretest- Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pretest- Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11BB1A50279B5B830023CC8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11BB1A52279B5B830023CC8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		11BB1A54279B5B830023CC8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11BB1A57279B5B830023CC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		11BB1A59279B5B830023CC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11BB1A5C279B5B830023CC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11BB1A5E279B5B830023CC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +40,7 @@
 		11BB1A44279B5B830023CC8E = {
 			isa = PBXGroup;
 			children = (
+				119B5BC927ACE57A006ACBDF /* SettingsViewController.swift */,
 				11BB1A4F279B5B830023CC8E /* Pretest- Tip Calculator */,
 				11BB1A4E279B5B830023CC8E /* Products */,
 			);
@@ -60,7 +61,6 @@
 				11BB1A52279B5B830023CC8E /* SceneDelegate.swift */,
 				11BB1A54279B5B830023CC8E /* ViewController.swift */,
 				11BB1A56279B5B830023CC8E /* Main.storyboard */,
-				11BB1A59279B5B830023CC8E /* Assets.xcassets */,
 				11BB1A5B279B5B830023CC8E /* LaunchScreen.storyboard */,
 				11BB1A5E279B5B830023CC8E /* Info.plist */,
 			);
@@ -126,7 +126,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				11BB1A5D279B5B830023CC8E /* LaunchScreen.storyboard in Resources */,
-				11BB1A5A279B5B830023CC8E /* Assets.xcassets in Resources */,
 				11BB1A58279B5B830023CC8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +140,7 @@
 				11BB1A55279B5B830023CC8E /* ViewController.swift in Sources */,
 				11BB1A51279B5B830023CC8E /* AppDelegate.swift in Sources */,
 				11BB1A53279B5B830023CC8E /* SceneDelegate.swift in Sources */,
+				119B5BCA27ACE57A006ACBDF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +285,8 @@
 		11BB1A62279B5B830023CC8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -312,8 +312,8 @@
 		11BB1A63279B5B830023CC8E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
