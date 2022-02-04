@@ -48,6 +48,10 @@ GIF created with [RecordIT](https://recordit.co).
 Describe any challenges encountered while building the app.
 Had to purchase 2021 24inch iMac due to 2012 Macbook Pro ending software updates by Apple
 
+Getting used to Xcode playform to learn all the shortcuts took some googling.
+
+Spent half a night trying to understand functionality of a feature and deciding to take a break.
+
 ## License
 
     Copyright [2022] [Nikita Wilson]
